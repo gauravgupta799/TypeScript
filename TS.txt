@@ -5,3 +5,5 @@ npm install -g typescript
 
 //For checking version of it.
 tsc -v
+
+TypeScript is basically inhance version of JavaScript.
