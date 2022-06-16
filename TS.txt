@@ -1,0 +1,7 @@
+//NodeJs must be Install
+
+// Install TypeScript Globally
+npm install -g typescript
+
+//For checking version of it.
+tsc -v
