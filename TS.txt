@@ -6,4 +6,15 @@ npm install -g typescript
 //For checking version of it.
 tsc -v
 
+//What is TypeScript
+
+TypeScript is not a new programming language.
+TypeScript is a typed superset of JavaScript.
 TypeScript is basically inhance version of JavaScript.
+Developed by Microsoft.
+Pure Object Oriented with classes,interface and statically typed like C# or Java.
+TS has inheritance syntex built-in.
+
+We can see errors during the compile time.
+
+Typescript + Transpile/Compile = JavaScript
