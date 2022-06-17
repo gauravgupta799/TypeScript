@@ -30,3 +30,38 @@ For example :- TypeScript will report an error when passing an error when passin
 > Boolean : - true or false
 
 * Typescript + Transpile/Compile = JavaScript
+
+
+// Object Types
+
+const person1:{name:string, age:number, email:string} = {
+    name: 'John',
+    age: 36,
+    email: 'john@example.com'
+}
+console.log(person1.name);
+
+
+const person2:{name:string, age:number, email:string}  = {
+    name: 'Sam',
+    age: 30,
+    email: 'sam@example.com'
+}
+
+//{name:string, age:number, email:string}, these things are repeating so we can do like this
+
+type objPerson = {name:string, age:number, email:string}
+
+const person1:objPerson= {
+    name: 'John',
+    age: 36,
+    email: 'john@example.com'
+}
+console.log(person1.name);
+
+const person2:objPerson = {
+    name: 'Sam',
+    age: 30,
+    email: 'sam@example.com'
+}
+console.log(person2.name);
