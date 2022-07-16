@@ -28,7 +28,6 @@ function addition():number{
 }
 addition();
 
-
 // <<<----- Void Return Type------>>>
 function greet(){
     console.log("Hello!, Good morning!");
@@ -53,13 +52,11 @@ function pow(value: number, exponent: number = 20){
     return value ** exponent;
 }
 
-
 // <<<---- Named Parameters ------>>>
 // Typing named parameters follows the same pattern as typing normal parameters
 function divide({dividend, divisor}: {dividend: number, divisor: number}){
     return dividend / divisor;
 }
-
 
 // <<<---- Rest Parameters ------>>>
 // Rest Parameters can be type like normal parameters, but the type must be an array as rest parameters are alwalys arrays.
