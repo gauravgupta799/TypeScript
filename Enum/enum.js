@@ -1,3 +1,4 @@
+"use strict";
 // >>> An enum is a special "class" that represent a group of constants.
 // >>> Enums come in two flavors String and Numeric. 
 // enum CardinalDirections {

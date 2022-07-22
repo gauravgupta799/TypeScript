@@ -1,3 +1,4 @@
+"use strict";
 // Uninon Type ( | ) ?
 // :- Union types decribes a value that can be one of several types.
 function combine(a, b) {

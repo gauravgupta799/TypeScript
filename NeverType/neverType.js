@@ -1,3 +1,4 @@
+"use strict";
 // function apiError(msg ,code) {
 //    return msg + code;
 // }

@@ -1,11 +1,12 @@
+"use strict";
 // What is unknown type?
-var adata;
+let adata;
 adata = 50;
 adata = "AnyType";
-var udata;
+let udata;
 // udata = 45;
 udata = "UnknownType";
-var item;
+let item;
 // item = adata; // qill not give any error for any type 
 // item = udata; // will gives error Type 'unknown' is not assignable to string type
 if (typeof udata == "string") {

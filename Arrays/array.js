@@ -1,4 +1,5 @@
-var arr = ["Java", "php", "javascript", "pyhton", "node"];
+"use strict";
+let arr = ["Java", "php", "javascript", "pyhton", "node"];
 arr.push("Swift");
 console.log(arr);
 // >>> Way to define any type of array
